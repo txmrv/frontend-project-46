@@ -1,7 +1,7 @@
-import _ from "lodash";
+import _ from 'lodash';
 import fs from 'node:fs';
-import path from "node:path";
-import process from "node:process";
+import path from 'node:path';
+import process from 'node:process';
 
 const buildDiff = (obj1, obj2) => {
   const unionKeys = _.sortBy(_.union(_.keys(obj1), _.keys(obj2)));
